@@ -1,0 +1,24 @@
+{
+    "name": "cyclonecode/patterns",
+    "description": "G4 design patterns",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^10.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cyclonecode\\Patterns\\": "src/"
+        }
+    },
+    "scripts": {
+        "tests": "./vendor/bin/phpunit tests"
+    },
+    "authors": [
+        {
+            "name": "Krister Andersson",
+            "email": "cyclonecode@gmail.com"
+        }
+    ],
+    "require": {}
+}
