@@ -11,6 +11,11 @@
             "Cyclonecode\\Patterns\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Cyclonecode\\Patterns\\Tests\\": "tests/"
+        }
+    },
     "scripts": {
         "tests": "./vendor/bin/phpunit tests"
     },
@@ -20,5 +25,9 @@
             "email": "cyclonecode@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra": {
+        "optimize-autoload": "true",
+        "sort-packages": "true"
+    }
 }

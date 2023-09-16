@@ -1,6 +1,6 @@
 <?php
 
-namespace Cyclonecode\Patterns\Entity;
+namespace Cyclonecode\Patterns\Behavior\Observer\Entity;
 
 interface EntityInterface
 {

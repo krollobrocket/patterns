@@ -1,9 +1,9 @@
 <?php
 
-namespace Cyclonecode\Patterns\Entity;
+namespace Cyclonecode\Patterns\Behavior\Observer\Entity;
 
-use Cyclonecode\Patterns\Observer\ObserverInterface;
-use Cyclonecode\Patterns\Observer\AbstractSubject;
+use Cyclonecode\Patterns\Behavior\Observer\Observer\ObserverInterface;
+use Cyclonecode\Patterns\Behavior\Observer\Observer\AbstractSubject;
 
 class Player extends AbstractSubject implements EntityInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Cyclonecode\Patterns\Observer;
+namespace Cyclonecode\Patterns\Behavior\Observer\Observer;
 
 interface SubjectInterface
 {
